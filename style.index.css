@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background-color: #ff5100;
+}
+
+#titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fafafa !important;
+}
+
+#titulo:hover {
+  color: #ffae00 !important;
+}
+
+#nav {
+  color: #fafafa !important;
+}
+
+#nav:hover {
+  color: rgb(255, 217, 0) !important;
+}
+
+#menuIcono {
+  color: rgb(0, 0, 0) !important;
+}
+
+#menuIcono:hover {
+  color: rgb(255, 60, 0) !important;
+}
+
+.dropdown-menu {
+  background-color: #ff661f;
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: #b34200;
+}
+
+/* ---------- CONTENIDO CENTRAL ---------- */
+.contenido {
+  max-width: 1000px;        /* mejor control del ancho */
+  margin: 20px auto 0;     /* centrado horizontal + separación superior */
+  text-align: center;      /* centra el texto dentro */
+  padding: 20px;
+}
+
+.contenido h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contenido p {
+  background-color: #ffa653;
+  color: #3d1300;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: inline-block;   /* el párrafo se ajusta al texto y se centra */
+  max-width: 100%;         /* evita desbordes */
+}
+
+/* ---------- CHAT CONTAINER ---------- */
+.chat-container {
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
